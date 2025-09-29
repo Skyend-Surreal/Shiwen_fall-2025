@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <title>Nightfall Memory</title>
+  <style>
+    .background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: url('../image/sunset.gif') no-repeat center center / cover;
+      z-index: -1;
+      animation: pulse 12s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { filter: brightness(0.8); }
+      100% { filter: brightness(1); }
+    }
+
+    .content {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.1em;
+      text-shadow:
+        0 0 6px rgba(255,255,255,0.6),
+        0 0 12px rgba(255,255,255,0.3);
+      line-height: 0.5;
+       overflow: hidden;
+      color: white;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    .change {
+      margin: 1em;
+      font-size: 2em;
+      color: white;
+      text-shadow: 0 0 8px rgba(255, 173, 85, 0.7);
+      text-decoration: none;
+      line-height: 2;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <em>
+    <h1>Looking for the shadow of past</h1>
+    <p>Day by day</p>
+    <h2>Don't even know</h2>
+    <p>How they dropped</p>
+    <h3>Fear in mental</h3>
+    <p>Or try to take off your phantom？</p>
+    <h1>See the sunset</h1>
+    <p>Or the rise</p>
+    <h2>We will know</h2>
+    <p>How they Past</p>
+    <h3>Come to find</h3>
+    <p>Even you don't want to</p>
+    <h1>Meet them</h1>
+    <p>Or</p>
+    <h2>They are not terrible at all time?</h2>
+  </em>
+    <a href="../About.html" class="change">About</a>
+  </div>
+</body>
+</html>
