@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+  <title>Nightfall Memory</title>
+  <style>
+    .background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: url('image/summer.gif') no-repeat center center / cover;
+      z-index: -1;
+      animation: pulse 12s ease-in-out infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { filter: brightness(0.8); }
+      100% { filter: brightness(1); }
+    }
+
+    .content {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.1em;
+      text-shadow:
+        0 0 6px rgba(255,255,255,0.6),
+        0 0 12px rgba(255,255,255,0.3);
+      line-height: 0.5;
+       overflow: hidden;
+      color: white;
+      text-align: center;
+    }
+    .change1 {
+      margin: 1em;
+      font-size: 2em;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 8px rgb(156, 245, 93);
+      text-decoration: none;
+      line-height: 2;
+    }
+    .change2 {
+      margin: 1em;
+      font-size: 2em;
+      color: rgb(255, 255, 255);
+      text-shadow: 0 0 8px rgb(112, 255, 253);
+      text-decoration: none;
+      line-height: 2;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <br>
+    <em>
+    <h1>TRIP@#$%^</h1>
+    <br>
+  </em>
+ <strong><a href="Garden/Garden1.html" class="change1">Garden</a></strong>
+ <strong><a href="Pool/Pool1.html" class="change2">Pool</a></strong>
+  </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+  <title>Nightfall Memory</title>
+  <style>
+    .background {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: url('image/About.gif') no-repeat center center / cover;
+      z-index: -1;
+      animation: pulse 10s ease-in-out infinite alternate;
+      filter: brightness(0.9);
+    }
+    @keyframes pulse {
+      0% { filter: brightness(0.8); }
+      100% { filter: brightness(1); }
+    }
+    .content {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 640px;
+      font-size: 0.7em;
+      line-height: 3em;
+      padding: 2em;
+      text-shadow: 0 0 6px rgba(255,255,255,0.6),
+                   0 0 12px rgba(255,255,255,0.3);
+      backdrop-filter: blur(1px);
+      overflow: hidden;
+      font-family: Georgia, serif;
+      color: rgb(255, 255, 255);
+      text-align: center;
+    }
+    .change {
+      margin: 1em;
+      font-size: 4em;
+      color: white;
+      text-shadow: 0 0 8px rgba(255,255,255,0.7);
+      text-decoration: none;
+      line-height: 4;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
+  <div class="content">
+    <h1>People's thoughts are always like water, flowing from top to bottom, but eventually they all converge to the sea. Therefore, we can try to jump into the sea and search for our own thoughts.</h1>
+    <a href="mainpage.html" class="change">Dream Again</a>
+  </div>
+</body>
+</html>
