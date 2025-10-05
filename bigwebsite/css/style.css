@@ -1,0 +1,96 @@
+body {
+  min-height: 2400px;
+  min-width: 2500px;
+  overflow: auto;
+  background-image: url("../iceland.jpg");
+  position: relative;
+  font-family: "Syne","Noto Sans SC","PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  line-height: 1.5;
+  background-color: rgb(54, 131, 255);
+   padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+.Cool{
+   font-family: "Tilt Prism","Syne",system-ui,sans-serif;
+    font-weight: 700;                
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-variation-settings: "wght" 900, "slnt" -10, "MONO" 0, "CASL" 1, "CRSV" 0;
+    position: relative;
+    font-size:300px;
+    right: 40px;
+    bottom: -800px;
+    color: rgb(225, 138, 213);
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+.img1 {
+  position: relative;
+  right:-400px;
+  bottom:50px;
+  width:400px;
+  z-index:-1;
+  border-style: double;
+}
+.img2{
+  position: relative;
+  right:-600px;
+  bottom:300px;
+  width:400px;
+  z-index:1;
+  border-style: double;
+}
+.img3{
+  position: relative;
+  right:-800px;
+  bottom:-100px;
+  width:400px;
+  z-index:-1;
+  border-style: double;
+}
+.img4{
+  position: relative;
+  right:-200px;
+  bottom:-500px;
+  width:400px;
+  z-index:-1;
+  border-style: solid;
+}
+.img5{
+  position: relative;
+  right:700px;
+  bottom:-3000px;
+  width:600px;
+  z-index:-1;
+  border-style: solid;
+}
+.h1{
+  position: relative;
+  text-decoration: line-through;
+  font-size: 200px;
+  right: -300px;
+  bottom: -400px;
+  border-style: double;
+}
+.h2{
+  position: relative;
+  text-decoration: overline underline;
+  font-size: 150px;
+  right: -500px;
+  bottom: -2800px;
+}
+#header {
+    color: rgb(19, 44, 58);
+}
+#header2 {
+    color: rgb(255, 0, 60);
+}
+p{
+  font-size: x-large;
+
+}
